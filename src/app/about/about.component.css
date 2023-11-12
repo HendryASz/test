@@ -1,0 +1,43 @@
+li {
+    padding: 1em;
+}
+
+.subTitle {
+    border-bottom: 2px solid #DC3545;
+    width: fit-content;
+}
+
+.about-desc {
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.about-skills {
+    animation: slideleft 1s linear forwards;   
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.about-skills {
+    animation-delay: 1s;
+    opacity: 0;
+}

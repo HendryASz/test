@@ -1,0 +1,18 @@
+a:hover {
+    text-decoration: underline;
+}
+
+.about-desc {
+    animation: slideleft 1s linear forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}

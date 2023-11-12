@@ -1,0 +1,8 @@
+.nav-link.active {
+    border-bottom: 2px solid #DC3545;
+}
+
+.nav-link {
+    color: #444;
+}
+
