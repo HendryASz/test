@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  html = '../../assets/html.svg';
-  css = '../../assets/css.svg';
-  js = '../../assets/javascript.svg';
-  bootstrap = '../../assets/bootstrap.svg';
-  angular = '../../assets/angular.svg';
-  api = '../../assets/api.svg';
-  git = '../../assets/git.svg';
-  vsc = '../../assets/vscode.svg';
+  html = 'assets/html.svg';
+  css = 'assets/css.svg';
+  js = 'assets/javascript.svg';
+  bootstrap = 'assets/bootstrap.svg';
+  angular = 'assets/angular.svg';
+  api = 'assets/api.svg';
+  git = 'assets/git.svg';
+  vsc = 'assets/vscode.svg';
 
   about = 'About me';
   skills = 'Skills';
